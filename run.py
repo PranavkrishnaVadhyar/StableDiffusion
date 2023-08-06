@@ -16,8 +16,8 @@ model_inputs = {
 	"seed": random.randint(0, 1000000)
 }
 
-api_key = "75ee3281-c789-4052-81a0-3362fd2d5aae"
-model_key = "45f73f92-132a-4fb3-ae91-4fb535610f02"
+api_key = "<API_KEY>"
+model_key = "<MODEL_KEY>"
 
 # Run the mode
 out = banana.run(api_key, model_key, model_inputs)
